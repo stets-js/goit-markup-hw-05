@@ -753,12 +753,14 @@ footer {
 
 .close-btn {
   position: absolute;
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
   right: 8px;
   top: 8px;
-  padding: 6px;
+  padding: 6px 6px;
   background-color: transparent;
   /* background-image: url(/images/close.svg);
   background-size: contain;
@@ -769,8 +771,8 @@ footer {
   cursor: pointer;
 }
 
-.icon-close {
+/* .icon-close {
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
